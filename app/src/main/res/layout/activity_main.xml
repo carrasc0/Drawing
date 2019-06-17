@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+
+    <com.gabriel.drawing.utils.DrawView
+            android:id="@+id/draw_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    <Button android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="24dp"
+            android:id="@+id/btnRestart"
+            android:text="Restart"
+            android:layout_height="wrap_content"/>
+</FrameLayout>
